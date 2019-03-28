@@ -20,20 +20,20 @@ class Nav extends Component {
                     </div>
                     <div className="collapse navbar-collapse" id="example-navbar-collapse">
                         <ul className="nav navbar-nav">
-                            <li className="active"><a href="#">iOS</a></li>
-                            <li><a href="#">SVN</a></li>
+                            <li className="active"><a href="#">Home</a></li>
+                            <li><a href="#">BootStrap</a></li>
                             <li className="dropdown">
                                 <a href="#" className="dropdown-toggle" data-toggle="dropdown">
-                                    Java <b className="caret"></b>
+                                    React <b className="caret"></b>
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li><a href="#">jmeter</a></li>
-                                    <li><a href="#">EJB</a></li>
-                                    <li><a href="#">Jasper Report</a></li>
+                                    <li><a href="#">React</a></li>
+                                    <li><a href="#">React-Route</a></li>
+                                    <li><a href="#">React-Redux</a></li>
                                     <li className="divider"></li>
-                                    <li><a href="#">分离的链接</a></li>
+                                    <li><a href="#">React-BootStrap</a></li>
                                     <li className="divider"></li>
-                                    <li><a href="#">另一个分离的链接</a></li>
+                                    <li><a href="#">Redux-Form</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -42,9 +42,6 @@ class Nav extends Component {
                             <li><a href="#"><span className="glyphicon glyphicon-log-in"></span> 登录</a></li>
                         </ul>
                     </div>
-
-
-
                 </div>
             </nav>
         )
